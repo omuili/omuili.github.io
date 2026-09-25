@@ -8,10 +8,10 @@
 
     <meta
         name="description"
-        content="Olanrewaju Muili — PhD researcher working on reliable AI, reinforcement learning, AI evaluation, and robustness."
+        content="Olanrewaju Muili — PhD researcher working on reliable AI, reinforcement learning, AI evaluation, robustness, and decision-making under imperfect information."
     >
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,8 +19,10 @@
 <div class="container">
 
     <header class="site-header">
-        <div>
+
+        <div class="identity">
             <h1>Olanrewaju Muili</h1>
+
             <p class="subtitle">
                 PhD Researcher · Reliable AI · Reinforcement Learning · AI Evaluation
             </p>
@@ -28,10 +30,13 @@
 
         <nav>
             <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
             <a href="#work">Work</a>
-            <a href="#background">About</a>
+            <a href="#about">About</a>
+            <a href="files/cv.pdf">CV</a>
             <a href="https://github.com/omuili">GitHub</a>
         </nav>
+
     </header>
 
 
@@ -39,29 +44,42 @@
 
         <section class="intro">
 
-            <div class="intro-text">
+            <div class="intro-grid">
 
-                <p class="lead">
-                    I study how AI systems make reliable decisions when the
-                    information available to them is incomplete, corrupted,
-                    uncertain, or misleading.
-                </p>
+                <div class="intro-photo">
+                    <img
+                        src="assets/profile.jpg"
+                        alt="Olanrewaju Muili"
+                    >
+                </div>
 
-                <p>
-                    My research spans reinforcement learning, AI evaluation,
-                    adversarial robustness, uncertainty, interpretability,
-                    and reliable decision-making under imperfect information.
-                </p>
+                <div class="intro-text">
 
-                <p class="links">
-                    <a href="https://github.com/omuili">GitHub</a>
-                    ·
-                    <a href="https://orcid.org/0000-0002-3587-3093">ORCID</a>
-                    ·
-                    <a href="https://www.linkedin.com/in/olanrewajumuili">LinkedIn</a>
-                    ·
-                    <a href="https://www.tracevox.ai/">TraceVox</a>
-                </p>
+                    <p class="lead">
+                        I study how AI systems make reliable decisions when the
+                        information available to them is incomplete, corrupted,
+                        uncertain, or misleading.
+                    </p>
+
+                    <p>
+                        My research focuses on reinforcement learning, AI evaluation,
+                        robustness, uncertainty, interpretability, and reliable
+                        decision-making under imperfect information.
+                    </p>
+
+                    <p class="links">
+                        <a href="https://github.com/omuili">GitHub</a>
+                        ·
+                        <a href="https://orcid.org/0000-0002-3587-3093">ORCID</a>
+                        ·
+                        <a href="https://www.linkedin.com/in/olanrewajumuili">LinkedIn</a>
+                        ·
+                        <a href="files/cv.pdf">CV</a>
+                        ·
+                        <a href="https://www.tracevox.ai/">TraceVox</a>
+                    </p>
+
+                </div>
 
             </div>
 
@@ -73,30 +91,34 @@
             <h2>Research</h2>
 
             <div class="research-item">
+
                 <h3>Observation Reliability in Reinforcement Learning</h3>
 
                 <p>
-                    I am studying how reinforcement learning agents can assess
-                    whether individual observations are reliable and how that
-                    information should influence sequential decision-making
-                    under observation corruption.
+                    I study how reinforcement learning agents can assess whether
+                    individual observations are reliable and how reliability
+                    information should influence sequential decision-making under
+                    observation corruption.
                 </p>
+
             </div>
 
 
             <div class="research-item">
+
                 <h3>AI Evaluation and Robustness</h3>
 
                 <p>
-                    I am interested in how evaluation design, distribution
-                    shift, adversarial transformations, and limited observations
-                    affect conclusions about the reliability and behavior of
-                    AI systems.
+                    I am interested in how evaluation design, distribution shift,
+                    adversarial transformations, and limited observations affect
+                    conclusions about the reliability and behavior of AI systems.
                 </p>
+
             </div>
 
 
             <div class="research-item">
+
                 <h3>Interpretability and Model Behavior</h3>
 
                 <p>
@@ -104,7 +126,35 @@
                     including internal representations, behavioral mechanisms,
                     and causal interventions.
                 </p>
+
             </div>
+
+        </section>
+
+
+        <section id="publications">
+
+            <h2>Publications &amp; Preprints</h2>
+
+            <div class="publication">
+
+                <p class="publication-status">Working paper</p>
+
+                <h3>
+                    Observation Reliability in Reinforcement Learning
+                </h3>
+
+                <p>
+                    Research on reliability estimation and sequential
+                    decision-making when an agent's observations may be corrupted.
+                </p>
+
+            </div>
+
+            <p class="section-note">
+                Additional manuscripts and preprints will be added here as they
+                become publicly available.
+            </p>
 
         </section>
 
@@ -169,9 +219,9 @@
                 </h3>
 
                 <p>
-                    Autonomous Python voice agent for evaluating AI
-                    receptionists through realistic phone calls,
-                    evidence-grounded analysis, and assurance instrumentation.
+                    Autonomous Python voice agent for evaluating AI receptionists
+                    through realistic phone calls, evidence-grounded analysis,
+                    and assurance instrumentation.
                 </p>
 
                 <p class="project-links">
@@ -208,21 +258,47 @@
         </section>
 
 
-        <section id="background">
+        <section id="about">
 
             <h2>About</h2>
 
             <p>
                 I work at the intersection of machine learning research,
-                AI engineering, and scientific computing. My broader research
-                interest is reliable decision-making under imperfect
-                information: understanding what AI systems can infer from the
-                evidence available to them, when that evidence should be
-                trusted, and how uncertainty should affect decisions.
+                AI engineering, and scientific computing.
+            </p>
+
+            <p>
+                My broader research interest is reliable decision-making under
+                imperfect information: understanding what AI systems can infer
+                from the evidence available to them, when that evidence should
+                be trusted, and how uncertainty should affect decisions.
+            </p>
+
+            <p>
+                I am also the founder of
+                <a href="https://www.tracevox.ai/">TraceVox</a>,
+                where I work on infrastructure for AI assurance, evaluation,
+                observability, and reproducibility.
             </p>
 
         </section>
 
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                <a href="https://github.com/omuili">GitHub</a>
+                ·
+                <a href="https://orcid.org/0000-0002-3587-3093">ORCID</a>
+                ·
+                <a href="https://www.linkedin.com/in/olanrewajumuili">LinkedIn</a>
+                ·
+                <a href="files/cv.pdf">CV</a>
+            </p>
+
+        </section>
 
     </main>
 
@@ -230,14 +306,6 @@
     <footer>
 
         <p>
-            <a href="https://github.com/omuili">GitHub</a>
-            ·
-            <a href="https://orcid.org/0000-0002-3587-3093">ORCID</a>
-            ·
-            <a href="https://www.linkedin.com/in/olanrewajumuili">LinkedIn</a>
-        </p>
-
-        <p class="footer-note">
             © 2026 Olanrewaju Muili
         </p>
 
